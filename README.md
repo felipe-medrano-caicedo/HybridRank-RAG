@@ -1,4 +1,4 @@
-# 🔬 HybridRank-RAG
+# 🔬 RAG Agent con Hybrid Retriever (RRF) + Gemini
 
 Un agente de recuperación aumentada (RAG) que combina búsqueda semántica vectorial y búsqueda por palabras clave (BM25) mediante **Reciprocal Rank Fusion (RRF)**, potenciado por el modelo **Gemini 2.5 Flash** de Google.
 
@@ -123,9 +123,8 @@ engine = KnowledgeEngine("https://es.wikipedia.org/wiki/Penicilina")
 
 ```
 .
-├── main.py           # Código principal del agente
-├── .env              # Variables de entorno (GOOGLE_API_KEY)
-└── README.md         # Este archivo
+├── HybridRank_RAG.ipynb   # Notebook principal con todo el pipeline
+└── README.md              # Este archivo
 ```
 
 ---
